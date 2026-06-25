@@ -7,6 +7,8 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Saludo
-        run: echo "Hola GitHub Actions"
+    steps:      
+        - run: echo "Descargando código"
+        - run: echo "Compilando"
+        - run: echo "Ejecutando pruebas"
+        - run: echo "Todo OK"
