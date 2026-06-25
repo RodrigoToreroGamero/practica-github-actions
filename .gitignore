@@ -1,0 +1,5 @@
+# Ignorar archivos compilados en java
+*.class
+
+# Ignorar carpeta de salida
+build/

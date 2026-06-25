@@ -8,3 +8,12 @@ El repositorio tendrá ramas que representen niveles de dificultad para implemen
 -	Implementa el workflow más simple:
 -	Crea un ci.yml que corre el comando echo en una máquina virtual.
 -	Hacer commit y push a origin main
+
+## Nivel 2: java
+-	Implementa un workflow con java:
+-	Crea las carpetas `src/` para `.java`, `build/` para `.class`.
+-	Agrega un .gitignore para ignorar la ruta `build/` y extensión `.class`.
+-	Agrega un archivo `Main.java`
+-	El archivo ci.yml debe ejecutar los siguientes comandos:
+-	El comando para compilar Main: `javac -d build src/Main.java`
+-	El comando para ejecutar Main: `java -cp build Main`
